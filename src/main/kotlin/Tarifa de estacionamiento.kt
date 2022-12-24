@@ -1,5 +1,7 @@
+import javax.swing.JOptionPane
+
 fun main(args: Array<String>) {
-    var hours = readLine()!!.toDouble()
+    var hours =JOptionPane.showInputDialog("Introduce el tiempo que quieres estacionarte")!!.toDouble()
     var total: Double = 0.0
     var restante: Double = 0.0
      if (hours <= 23) {
