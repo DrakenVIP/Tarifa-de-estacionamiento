@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
             restante++
         }
          total = hours +(restante*0.5)
-         println(total)
+         println("Pagaras en total: $$total USD")
     }
     else if (hours>=24) {
         while (hours >= 24) {
@@ -19,6 +19,6 @@ fun main(args: Array<String>) {
         }
          total= (hours*0.5) + total
 
-         println(total)
+         println("Pagaras en total: $$total USD")
     }
 }
